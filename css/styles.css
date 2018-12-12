@@ -1,0 +1,149 @@
+html, body {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 0.79em;
+  color: #00284f;
+}
+
+h1 {
+  font-size: 1.6em;
+  font-weight: bold;
+}
+
+h2 {
+  font-size: 1.1em;
+  font-weight: bold;
+}
+
+p {
+  text-align: justify;
+}
+
+.content {
+  width: 938px;
+  left: 50%;
+  margin-left: -469px;
+  position: absolute;
+  border-left: rgb(128, 128, 128) solid 1px;
+  border-right: rgb(128, 128, 128) solid 1px;
+  border-bottom: rgb(128, 128, 128) solid 1px;
+}
+
+.top-logo {
+  position: relative;
+  height: 177px;
+  background-image: url("/images/top.jpg");
+  background-repeat: no-repeat;
+}
+
+.top-logo-abbrev {
+  position: absolute;
+  font-size: 46px;
+  font-weight: bold;
+}
+
+.top-logo-abbrev span.year {
+  color: rgb(92, 170, 234);
+}
+
+.top-logo-info {
+  position: absolute;
+  right: 30px;
+  top: 70px;
+  text-align: right;
+  line-height: 25px;
+}
+
+.top-logo-info span.edition {
+  font-size: 14px;
+}
+
+.top-logo-info span.name {
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.top-logo-info span.date-place {
+  font-size: 12px;
+  color: rgb(58, 101, 215);
+}
+
+.nav {
+  width: 207px;
+  height: 619px;
+  float: left;
+  background-image: url("/images/left.jpg");
+  background-repeat: no-repeat;
+  background-position: bottom;
+}
+
+nav ul {
+  background-color: rgb(217, 222, 227);
+  list-style-type: none;
+  padding: 0px;
+  margin: 0px;
+}
+
+nav ul li {
+  border-bottom: solid 1px rgb(74, 89, 102);
+  padding: 2px 2px 2px 8px;
+}
+
+a, a:visited {
+  text-decoration: none;
+  color: #02449c;
+}
+
+a:hover {
+  color: #fb9f00;
+}
+
+.middle {
+  width: 518px;
+  float: left;
+  padding: 10px;
+}
+
+.title {
+  padding-bottom: 6px;
+  margin-bottom: 6px;
+  border-bottom: solid 2px #6aaee3;
+}
+
+.right {
+  width: 193px;
+  padding-top: 10px;
+  float: left;
+}
+
+.dates {
+  background-color: rgb(49,84,133);
+  color: #fafafa;
+  padding: 5px;
+  font-size: 0.79em;
+  margin-bottom: 10px;
+}
+
+.organizers {
+  background-color: rgb(181,181,181);
+  color: #fafafa;
+  padding: 5px;
+  font-size: 0.79em;
+}
+
+.map {
+  margin-top: 10px;
+  border: rgb(128, 128, 128) solid 1px;
+}
+
+table.previous {
+  color: #666666;
+}
+
+table.previous tr td:nth-child(2) {
+  padding-left: 7px;
+}
