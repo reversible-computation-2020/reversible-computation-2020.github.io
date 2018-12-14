@@ -143,6 +143,29 @@ a:hover {
   font-size: 0.79em;
 }
 
+#local-imgs {
+  margin-bottom: 10px;
+  padding: 0px;
+  height: 50px;
+}
+
+.local-img {
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 49%;
+  height: 50px;
+}
+
+#local-img1 {
+  background-image: url("../images/minipic1.jpg");
+  float: left;
+}
+
+#local-img2 {
+  background-image: url("../images/minipic3.jpg");
+  float: right;
+}
+
 #springer-img {
   background-image: url("../images/springer.png");
   background-repeat: no-repeat;
