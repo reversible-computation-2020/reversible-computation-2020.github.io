@@ -99,6 +99,7 @@ nav ul {
 
 nav ul li {
   border-bottom: solid 1px rgb(74, 89, 102);
+  border-right: solid 1px rgb(74, 89, 102);
   padding: 2px 2px 2px 8px;
 }
 
@@ -141,6 +142,9 @@ a:hover {
   background-color: rgb(217, 222, 227);
   padding: 5px;
   font-size: 0.79em;
+  border-left: solid 1px rgb(74, 89, 102);
+  border-top: solid 1px rgb(74, 89, 102);
+  border-bottom: solid 1px rgb(74, 89, 102);
 }
 
 #local-imgs {
