@@ -37,8 +37,8 @@ p {
 .top-logo {
   position: relative;
   height: 177px;
-  background-image: url("/images/top.jpg");
   width: 938px;
+  background-image: url("../images/top.jpg");
   background-repeat: no-repeat;
 }
 
@@ -83,7 +83,7 @@ p {
   width: 180px;
   height: 619px;
   float: left;
-  background-image: url("/images/left.jpg");
+  background-image: url("../images/left.jpg");
   background-repeat: no-repeat;
   background-position: bottom;
 }
