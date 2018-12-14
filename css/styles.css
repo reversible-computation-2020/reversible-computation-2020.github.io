@@ -33,7 +33,7 @@ p {
 .content {
   width: 938px;
   position: absolute;
-  border: rgb(128, 128, 128) solid 1px;
+  border: rgb(74, 89, 102) solid 1px;
 }
 
 .top-logo {
@@ -42,12 +42,15 @@ p {
   width: 938px;
   background-image: url("../images/top.jpg");
   background-repeat: no-repeat;
+  border-bottom: solid 1px rgb(74, 89, 102);
 }
 
 .top-logo-abbrev {
   position: absolute;
   font-size: 46px;
   font-weight: bold;
+  width: 100%;
+  border-bottom: solid 1px rgb(74, 89, 102);
 }
 
 .top-logo-abbrev span.year {
