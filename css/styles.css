@@ -25,6 +25,8 @@ p {
 
 .all {
   margin: 0 auto;
+  padding: 5px;
+  margin-bottom: 20px;
   width: 938px;
 }
 
@@ -38,7 +40,7 @@ p {
   position: relative;
   height: 177px;
   width: 938px;
-  background-image: url("/images/top.jpg");
+  background-image: url("../images/top.jpg");
   background-repeat: no-repeat;
 }
 
@@ -83,7 +85,7 @@ p {
   width: 180px;
   height: 619px;
   float: left;
-  background-image: url("/images/left.jpg");
+  background-image: url("../images/left.jpg");
   background-repeat: no-repeat;
   background-position: bottom;
 }
@@ -139,6 +141,14 @@ a:hover {
   background-color: rgb(217, 222, 227);
   padding: 5px;
   font-size: 0.79em;
+}
+
+#springer-img {
+  background-image: url("/images/springer.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 50px;
+  padding: 10px;
 }
 
 .map {
