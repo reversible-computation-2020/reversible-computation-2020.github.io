@@ -7,6 +7,9 @@ body {
   font-family: Verdana, Geneva, Tahoma, sans-serif;
   font-size: 0.79em;
   color: #00284f;
+  min-height:100%;
+  position:relative;
+  padding-bottom: 30px
 }
 
 h1 {
@@ -86,7 +89,8 @@ p {
 
 .nav {
   width: 180px;
-  height: 619px;
+  min-height: 600px;
+  height: 100%;
   float: left;
   background-image: url("../images/left.jpg");
   background-repeat: no-repeat;
@@ -179,6 +183,20 @@ a:hover {
   background-position: center;
   height: 50px;
   padding: 10px;
+}
+
+.footer {
+  position: absolute;
+  left: -1px ; right: 0; bottom: -35px;
+  height: 20px;
+  margin-bottom: 5px;
+  width: 933px;
+  border: solid 1px rgb(74, 89, 102);
+  background-color: rgb(217, 222, 227);
+  padding-top: 5px;
+  padding-right: 5px;
+  vertical-align: middle;
+  text-align: right;
 }
 
 .map {
