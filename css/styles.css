@@ -38,7 +38,7 @@ p {
   position: relative;
   height: 177px;
   width: 938px;
-  background-image: url("../images/top.jpg");
+  background-image: url("/images/top.jpg");
   background-repeat: no-repeat;
 }
 
@@ -83,7 +83,7 @@ p {
   width: 180px;
   height: 619px;
   float: left;
-  background-image: url("../images/left.jpg");
+  background-image: url("/images/left.jpg");
   background-repeat: no-repeat;
   background-position: bottom;
 }
@@ -136,8 +136,7 @@ a:hover {
 }
 
 .organizers {
-  background-color: rgb(181,181,181);
-  color: #fafafa;
+  background-color: rgb(217, 222, 227);
   padding: 5px;
   font-size: 0.79em;
 }
