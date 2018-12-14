@@ -144,7 +144,7 @@ a:hover {
 }
 
 #springer-img {
-  background-image: url("/images/springer.png");
+  background-image: url("../images/springer.png");
   background-repeat: no-repeat;
   background-position: center;
   height: 50px;
