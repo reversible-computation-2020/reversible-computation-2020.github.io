@@ -13,4 +13,7 @@
 #date-conference:before {
   content: "June 24 - June 25, 2019";
 }
+#date-place:before {
+  content: "June 24 - 25, 2019, Lausanne, Switzerland";
+}
 
