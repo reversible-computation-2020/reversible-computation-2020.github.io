@@ -1,14 +1,14 @@
 #date-abstract:before {
-  content: "January 20, 2019";
+  content: "February 04, 2019";
 }
 #date-submission:before {
-  content: "January 27, 2019";
+  content: "February 11, 2019";
 }
 #date-notification:before {
-  content: "March 10, 2019";
+  content: "April 01, 2019";
 }
 #date-cameraready:before {
-  content: "March 31, 2019";
+  content: "April 15, 2019";
 }
 #date-conference:before {
   content: "June 24 - June 25, 2019";
@@ -16,4 +16,3 @@
 #date-place:before {
   content: "June 24 - 25, 2019, Lausanne, Switzerland";
 }
-
