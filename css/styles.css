@@ -211,3 +211,32 @@ table.previous {
 table.previous tr td:nth-child(2) {
   padding-left: 7px;
 }
+
+table#program {
+  border-top: solid 1px rgb(74, 89, 102);
+  border-left: solid 1px rgb(74, 89, 102);
+  border-right: solid 1px rgb(74, 89, 102);
+  width: 100%;
+  border-spacing: 0px;
+}
+
+table#program tr.special {
+  background-color: rgb(49,84,133);
+  color: #fafafa;
+}
+
+table#program td {
+  vertical-align: top;
+  padding: 3px;
+  border-bottom: solid 1px rgb(74, 89, 102);
+}
+
+table#program td:nth-child(1) {
+  width: 100px;
+  border-right: dashed 1px rgb(74, 89, 102);
+}
+
+table#program td div.authors {
+  font-style: italic;
+  color: rgb(74, 89, 102);
+}
