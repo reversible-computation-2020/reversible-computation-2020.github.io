@@ -225,6 +225,10 @@ table#program tr.special {
   color: #fafafa;
 }
 
+table#program tr.keynote {
+  background-color: #ffcf9e;
+}
+
 table#program td {
   vertical-align: top;
   padding: 3px;
