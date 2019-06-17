@@ -244,3 +244,8 @@ table#program td div.authors {
   font-style: italic;
   color: rgb(74, 89, 102);
 }
+
+table#program tr.caption {
+  text-align: center;
+  font-style: italic;
+}
