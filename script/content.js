@@ -1,10 +1,10 @@
 
-var abstact      = "February 04, 2019";
-var submission   = "February 11, 2019";
-var notification = "April 01, 2019";
-var cameraready  = "April 15, 2019";
-var conference   = "June 24 - June 25, 2019";
-var place        = "Lausanne, Switzerland";
+var abstact      = "abstractdate";
+var submission   = "submissiondate";
+var notification = "notificationdate";
+var cameraready  = "finalversiondate";
+var conference   = "July 9 - July 10, 2020";
+var place        = "Oslo, Norway";
 
 function update(id, value) {
   var element = document.getElementById(id);
