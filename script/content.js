@@ -1,6 +1,6 @@
 
-var abstact      = "January 31, 2020";
-var submission   = "February 7, 2020";
+var abstact      = "February 7, 2020";
+var submission   = "February 14, 2020";
 var notification = "March 20, 2020";
 var cameraready  = "April 10, 2020";
 var conference   = "July 9 - July 10, 2020";
