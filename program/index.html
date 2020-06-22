@@ -76,7 +76,7 @@
     var curr_min = d.getMinutes();
     var curr_oslohour = d.getUTCHours() + 2;
     if (curr_oslohour > 23) curr_oslohour = curr_oslohour - 24;
-    document.write("<p>Current Oslo local time is " + curr_oslohour + ":" + curr_min + "</p>");
+    document.write("<p>Current Oslo local time is " + String(curr_oslohour).padStart(2, '0') + ":" + String(curr_min).padStart(2, '0') + "</p>");
 //-->
 </script>
 
