@@ -66,8 +66,19 @@
 <h1>Programme</h1>
 
 <p>
-  All times are in Oslo time (UTC+02:00).
+  <b>All times are in Oslo time (UTC+02:00).</b>
 </p>
+
+  <script type="text/javascript">
+    <!--
+    var a_p = "";
+    var d = new Date();
+    var curr_min = d.getMinutes();
+    var curr_oslohour = d.getUTCHours() + 2;
+    if (curr_oslohour > 23) curr_oslohour = curr_oslohour - 24;
+    document.write("<p>Current Oslo local time is " + curr_oslohour + ":" + curr_min + "</p>");
+//-->
+</script>
 
 <h2>Day 1 &ndash; July 9, 2020</h2>
 <!-- <p>Ole Johan Dahls Hus, lecture hall Smalltalk</p> -->
